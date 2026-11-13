@@ -102,4 +102,4 @@ jobs:
         run: |
           aws elasticbeanstalk describe-environment-health \
             --environment-name ${{ vars.EB_ENVIRONMENT_NAME }} \
-            --attribute HealthStatus --query "HealthStatus"
+            --attribute HealthStatus --query "HealthStatus" 
